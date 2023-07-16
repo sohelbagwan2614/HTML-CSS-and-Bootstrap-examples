@@ -1,0 +1,31 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div {
+            width: 100px;
+            height: 50px;
+            background-color: red;
+            transition-duration: 5s;
+            transition-timing-function: steps(5);
+        }
+        div:hover {
+            width: 1000px;
+            background-color: yellow;
+            transition-duration: 2s;
+            transition-timing-function: steps(20);
+            transition-property: width;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    </div>
+</body>
+</html>

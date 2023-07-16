@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nevigation Example</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        nav{
+            width: 200px;
+            height: 500px;
+            background-color: gray;
+            padding-top: 20px;
+        }
+        details div{
+            width: 100px;
+            background-color: black;
+            color: white;
+            padding: 5px;
+            margin-top: 5px;
+        }
+        details div:hover{
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <menu>
+            <div><span class="bi bi-house-fill"></span>Home</div>
+            <details>
+                <summary>Electronics</summary>
+                <div>Mobiles</div>
+                <div>Watches</div>
+                <div>Television</div>
+            </details>
+            <details>
+                <summary>Footwear</summary>
+                <div>shoes</div>
+                <div>boots</div>
+                <div>sandals</div>
+            </details>
+        </menu>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (min-width:800px) {
+              body {
+                 background-image: url("../public/images/netflixbanner.jpeg");
+                 background-size: 400px;
+              }
+              nav {
+                display: flex;
+              }
+          }
+          @media screen and (max-width:800px) {
+              body {
+                background-image: url("../public/images/php.jpg");
+                background-size: 400px;
+              }
+              nav span {
+                display: block;
+              }
+          }
+        .shade
+        {
+            background-color: rgba(0,0 ,0, 0.6);
+            height: 300px;
+            width:100%;
+        }
+    </style>
+    <link rel="stylesheet" href="../node_modules/bootstrap-icons/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="shade">
+        <nav>
+            <span class="bi bi-twitter"></span>
+            <span class="bi bi-instagram"></span>
+            <span class="bi bi-whatsapp"></span>
+        </nav>
+
+    </div>
+</body>
+</html>
